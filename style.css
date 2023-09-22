@@ -1,0 +1,268 @@
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #4d1f53;
+    text-align: center;
+    font-style: normal;
+    margin-top: 0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #4d1f53;
+    text-align: left;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h4{
+    margin-bottom: 5px;
+    margin-top:0;
+}
+
+
+body{
+    margin: 0px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color: #171617;
+}
+div{
+    padding:0;
+}
+
+/*sekce Hlavička*/
+    .header{
+        /*background-color: #B5A7B6;*/
+        background-image: url(obrazky/background.jpg);
+        background-size: 100%;
+        background-repeat: repeat;
+        padding: 80px 100px;
+        display: flex;
+        align-items: center;
+        margin:0;
+        justify-content: center;
+    }
+    .header h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 110px;
+        font-weight:600;
+        color: #4d1f53;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        margin: 0;
+    }
+    .header img{
+        width:400px;
+        border-radius: 50%;
+        margin-right: 20px;
+        border: 3px solid #4d1f53;
+    }
+
+/*sekce Navbar*/
+    .navbar{
+        background-color: #fafafa;
+        border-top: 0.3ex solid #4d1f53;
+        border-bottom: 0.3ex solid #4d1f53;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar a{
+        display: block;
+        color: #4D1F53;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 30px;
+        font-size: 25px;
+        font-weight: 900;
+        transition: 300ms;
+        width:170px;
+    }
+    .navbar li{
+        display:inline-block;
+        flex-grow: 1;
+    }
+    .navbar ul{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a:hover,
+    .navbar a:focus,
+    .navbar a:active{
+        background-color: #4D1F53;
+        color: #fff;
+    }
+    .navbar h2{
+        margin-bottom: 0px;
+        font-style: normal;
+    }
+
+/*dělení na sloupce*/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    .sloupec1{
+        width:30%;
+        font-weight: 700;
+        border-right: 0.3ex solid #4d1f53;
+        border-left: 0.3ex solid #4d1f53;
+
+    }
+    .sloupec1 .kontakt-komplet{
+        border: 3px dashed #4D1F53;
+        border-radius: 10%;
+    }
+    .sloupec2{
+        width:69%;
+        font-weight: 400;
+        background-color: #fafafa;
+    }
+
+/*sekce Bio*/
+    .bio{
+        background-color: #B5A7B6;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .bio a{
+        text-decoration: none;
+        color:#4d1f53;
+    }
+    ul.bio-list{
+        list-style-image: url(obrazky/icons8-right-arrow-48.png);
+    }
+    ul.bio-list li{
+        margin-left: 25px;
+        vertical-align: middle;
+        padding: 5px;
+    }
+    .jehla{
+        height:36px;
+        margin-left: 10px;
+    }
+    
+
+    /*sekce Kontakt*/
+    .kontakt{
+        background-color: #B5A7B6;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .kontakt table {
+        padding: 15px;
+        width: auto;
+    }
+    .kontakt table a{
+        text-decoration: none;
+        color: #4d1f53;
+    }
+    .ikony{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .sl2{
+        color:#171617;
+        padding-left: 20px;
+        width:auto;
+    }
+
+    /*sekce Vzdělání a kurzy*/
+    .edu{
+        background-color: #B5A7B6;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        line-height: 2;
+    }
+    .edu a{
+        text-decoration: none;
+        color:#4d1f53;
+    }
+    ul.edu-list{
+        list-style-image: url(obrazky/icons8-right-arrow-48.png)
+    }
+    ul.edu-list li{
+        margin-left: 25px;
+        vertical-align: middle;
+        padding: 5px;
+    }
+
+/*sekce Kariéra*/
+    .work{
+        /*background-color: #FFF5FF;*/
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+/*sekce Hobby*/
+    .hobby{
+        /*background-color: #FFF5FF;*/
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+/*sekce Fotogalerie*/
+    .fotogalerie{
+        /*background-color: #FFF5FF;*/
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .fotogalerie img{
+
+        width: 48%;
+        border-radius: 10%;
+        border: 3px solid #4D1F53;
+        display:flexbox;
+    }
+
+    .kontakt a{
+        color: #FFF5FF;
+        text-decoration: none;
+    }
+    .kontakt a:hover,
+    .kontakt a:focus,
+    .kontakt a:active{
+        color:#9D6AA2;
+    }
+    .kontakt img{
+        width:50px;
+    }
+
+/*sekce Patička*/
+    .footer{
+        background-color: #4d1f53;
+        color: #FEFFFF;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+        width:100%;
+    }
+    .icons_credit{
+        font-size: 10px;
+        padding: 0;
+    }
+    .icons_credit a{
+        color: #DEF2F1;
+        text-decoration: none;
+    }
