@@ -116,9 +116,10 @@ div{
         font-weight: 700;
         border-right: 0.3ex solid #4d1f53;
         border-left: 0.3ex solid #4d1f53;
+        word-wrap: break-word;
 
     }
-    .sloupec1 .kontakt-komplet{
+   .sloupec1 .kontakt-komplet{
         border: 3px dashed #4D1F53;
         border-radius: 10%;
     }
@@ -126,6 +127,7 @@ div{
         width:69%;
         font-weight: 400;
         background-color: #fafafa;
+        flex-grow: 1;
     }
 
 /*sekce Bio*/
@@ -175,7 +177,10 @@ div{
     .sl2{
         color:#171617;
         padding-left: 20px;
-        width:auto;
+        padding-right: 15px;
+    }
+    .sloupec1 .sl2 a {
+        word-break: break-word;
     }
 
     /*sekce Vzdělání a kurzy*/
@@ -223,6 +228,21 @@ div{
         margin-right: 10px;
         border: 3px solid #4D1F53;
         border-radius: 10%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .hobby1 img{
+        margin-right: 15px;
+        float: left;
+    }
+    .hobby1 ul{
+        margin: 0;
+        padding: 0;
+    }
+        
+    .hobby ul li {
+        margin-bottom: 10px;
+        list-style-type: none;
     }
 
     .kontakt a{
